@@ -4,7 +4,7 @@
         <script src="https://randojs.com/1.0.0.js"></script>
         <script>
             function showRandomNumber(){
-                document.getElementById("myNumber").innerHTML = rando(0, 10);
+                document.getElementById("myNumber").innerHTML = rando(0, 100);
             }
         </script>
         <style>
@@ -12,11 +12,12 @@
                 font-size:100px;
                 text-align:center;
                 margin:50px auto;
-                font-family:Arial, sans-serif;
+                font-family:Creepster, sans-serif;
             }
         </style>
     </head>
-    <body onload="showRandomNumber();">
+    <body onclick="showRandomNumber();">
         <div id="myNumber"></div>
     </body>
 </html>
+<button type="button">Click Me!</button>
