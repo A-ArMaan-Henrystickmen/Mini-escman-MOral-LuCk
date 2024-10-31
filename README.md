@@ -1,3 +1,4 @@
+$${\color{red}Red}$$
 if you got 0-20 
 if you got 20-40
 if you got 40-60
